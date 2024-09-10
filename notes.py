@@ -9,6 +9,40 @@
 
 
 
+myString = "something"
+myInt = 100
+myFloat = 2.5
+
+#casting example
+print(int(myInt)/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
+
+
+num1 = input("please enter a number")
+
+print(int(num1) + int(num1))
+
+print("My int = " + str(myInt))
+
+thing = 500/6
+print(thing)
+print("My result is " + str(thing))
+print("My result is", thing)
+print(f"The result id {thing}") #fstring - {} are for variables
+
+print("First line\nSecond line\nThird line")
+print("List header")
+print("\tItem1")
+print("\tItem2")
+print("\tItem3")
+
+#File path example 
+#C:\\user
+
+
+
+
 ## Live Demo ##
 #
 # Casing
